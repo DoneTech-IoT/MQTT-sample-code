@@ -1,0 +1,51 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.port": "/dev/ttyACM0",
+  "idf.adapterTargetName": "esp32s3",
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "target/esp32s3.cfg"
+  ],
+  "idf.flashType": "UART",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#fbed80",
+    "activityBar.background": "#fbed80",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#06b9a5",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#fbed80",
+    "statusBar.background": "#f9e64f",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#f7df1e",
+    "statusBarItem.remoteBackground": "#f9e64f",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#f9e64f",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#f9e64f99",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#f9e64f",
+  "files.associations": {
+    "mqtt.h": "c",
+    "esp_log.h": "c",
+    "stdint.h": "c",
+    "stdio.h": "c",
+    "mqtt_client.h": "c",
+    "string.h": "c",
+    "freertos.h": "c",
+    "esp_system.h": "c",
+    "stddef.h": "c",
+    "mqtt_typedef.h": "c",
+    "mqtt_interface.h": "c",
+    "mqtt_core.h": "c",
+    "semphr.h": "c",
+    "task.h": "c",
+    "esp_freertos_hooks.h": "c",
+    "mqtt_config.h": "c",
+    "timers.h": "c",
+    "esp_crt_bundle.h": "c",
+    "esp_tls.h": "c"
+  }
+}
